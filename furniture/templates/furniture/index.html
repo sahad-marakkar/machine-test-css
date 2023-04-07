@@ -1,0 +1,140 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>furniture</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <style>
+        .ab{
+            border: 1px solid black;
+            padding: 10px;
+            display: grid;
+            grid-template-rows: 100%;
+            grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+            font-size: medium;
+            font-weight: 500;
+            background-color: yellowgreen;
+        }
+        .bc{
+            border:1px solid black;
+            padding: 30px;
+            display: grid;
+            grid-template-rows:auto ;
+            grid-template-columns: auto auto auto auto;
+            background-color: yellowgreen;
+
+
+        }
+        #aa{
+            font-size: larger;
+            color: red;
+            font-stretch: extra-expanded;
+            font-weight: bolder;
+        }
+        .ac{
+            border: 1px solid black;
+            padding:8px;
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: auto auto auto auto auto auto;
+            font-size: larger;
+            background-color: yellowgreen;
+        }
+        #dd{
+            margin: 10px;
+            border: 1px solid black;
+            padding:30px;
+            text-align:center;
+            font-size: 60px;
+            font-weight:400 ;
+            color: red;
+            background-color: yellow;
+
+        }
+        .img{
+            display: grid;
+            grid-template-rows: auto auto;
+            grid-template-columns: auto auto auto ;
+            margin: 2px;
+        }
+        .iv{
+            display: flex;
+            background-color: gray;
+
+            
+        }
+        .iv div{
+            padding: 50px;
+        }
+        .a3{
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+     
+    </style>
+</head>
+<body style="margin-right: 30mm; margin-left: 30mm;">
+    <div>
+        <div class="ab">
+            <div>Help</div>
+            <div>Track order</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>Stores</div>
+            <div>Bulk orders</div>
+            <div>Gift cards</div>
+            <div>UL services</div>
+        </div>
+        <div class="bc">
+            <div id="aa"> Urban <br>Ladder</div>
+            <div >
+                <input type="search" placeholder="search">
+            </div>
+            <div>
+                <select name="enter" id=""></select>
+                <option value="a">log in</option>
+                <option value="b">sign up</option>
+            </div>
+            <div>Cart</div>
+        </div>
+        <div class="ac">
+            <div><a href="./livingroom.html">living room</a></div>
+            <div><a href="./bedroom.html">bedroom</a></div>
+            <div><a href="./dining.html">dinning</a></div>
+            <div><a href="./studyroom.html">studyroom</a></div>
+            <div><a href="./store.html">store</a></div>
+            <div><a href="./kitchen.html">kitchen</a></div>
+        </div>
+        
+    </div>
+    <div>
+        <div style="margin-top: 15px;">
+            <img src="https://www.ulcdn.net/media/Slideshow/Dining-slideshow-3.jpg?1679042848" alt="" height="450px" width="100%">
+        </div>
+    </div>
+    
+    <div id="dd">Block Buster Deals</div>
+
+    <div class="img">
+        <div><img src="/static/images/furn1.jpg" alt=""></div>
+        <div><img src="/static/images/furn2.jpg" alt=""></div>
+        <div><img src="/static/images/furn3.jpg" alt=""></div>
+        <div class="a3">djfjfsjl <br>$40</div>
+        <div class="a3">jfkdjfk <br>$55</div>
+        <div class="a3">jfklsjdf <br>$84</div>
+    </div>
+    <div class="iv">
+        <div>The company <br>about us <br>help</div>
+        <div>more info <br>warranty <br>return <br>refund <br>shipping delivery</div>
+        <div>address <br>djflkdsjio <br>jfdjlj <br>djfdlkj <br>dkjf</div>
+    </div>
+    
+    
+</body>
+</html>
